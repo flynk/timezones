@@ -66,7 +66,7 @@
     "abbreviation": "AET",
     "name": "Australian Eastern Time",
     "offset": ["+10:00", "+11:00"],
-    "id": "AET1",
+    "id": "AET",
     "multi": true
   },
   {
@@ -171,7 +171,7 @@
     "abbreviation": "AT",
     "name": "Atlantic Time",
     "offset": ["-4:00", "-3:00"],
-    "id": "AT1",
+    "id": "AT",
     "multi": true
   },
   {
@@ -430,7 +430,7 @@
     "abbreviation": "CT",
     "name": "Central Time",
     "offset": ["-05:00", "-06:00"],
-    "id": "CT1",
+    "id": "CT",
     "multi": true
   },
   {
@@ -542,7 +542,7 @@
     "abbreviation": "ET",
     "name": "Eastern Time",
     "offset": ["-04:00", "-05:00"],
-    "id": "ET1",
+    "id": "ET",
     "multi": true
   },
   {
@@ -899,7 +899,7 @@
     "abbreviation": "MT",
     "name": "Mountain Time",
     "offset": ["-06:00", "-07:00"],
-    "id": "MT1",
+    "id": "MT",
     "multi": true
   },
   {
@@ -1102,14 +1102,21 @@
     "abbreviation": "PST",
     "name": "Pacific Standard Time",
     "offset": ["-08:00"],
-    "id": "PST",
+    "id": "PST1",
+    "multi": false
+  },
+  {
+    "abbreviation": "PST",
+    "name": "Pitcairn Standard Time",
+    "offset": ["-08:00"],
+    "id": "PST2",
     "multi": false
   },
   {
     "abbreviation": "PT",
     "name": "Pacific Time",
     "offset": ["-07:00", "-08:00"],
-    "id": "PT1",
+    "id": "PT",
     "multi": true
   },
   {
@@ -1451,9 +1458,16 @@
   {
     "abbreviation": "WIT",
     "name": "Eastern Indonesian Time",
-    "offset": ["+08:00", "+09:00"],
-    "id": "WIT1",
-    "multi": true
+    "offset": ["+09:00"],
+    "id": "WIT",
+    "multi": false
+  },
+  {
+    "abbreviation": "WITA",
+    "name": "Central Indonesian Time",
+    "offset": ["+08:00"],
+    "id": "WITA",
+    "multi": false
   },
   {
     "abbreviation": "WST",
